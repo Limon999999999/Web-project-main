@@ -1,0 +1,143 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 1200px;
+    background-color:rgba(73, 66, 61, 0.671)
+}
+a{
+    text-decoration: none;
+    color: rgb(44, 45, 46);
+}
+.list-reset{
+    margin: 10px;
+    padding:0;
+    list-style: none;
+}
+h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    flex-direction: column;
+    
+    
+}
+.header-top-title{
+    padding: 40px;
+    margin:0 auto;
+    font-size: 30px;
+    
+}
+.header-top{
+    
+    position: relative;
+    width: auto;
+    height: 100px;
+    border-radius: 5px;
+    margin: auto;
+
+    background: rgb(198,195,181, 0.664);
+}
+.header-menu{
+    width: 100%;
+}
+.header-menu-items{
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.menu-item{
+    margin:0 auto;
+    border-radius: 5px;
+    width: 177px;
+    height: 26px;
+    background: rgba(198, 195, 181, 0.664);
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-right: 80px;
+
+    
+}
+.menu-item:last-child{
+    margin-right: 0;
+}
+.processors-and-effects-pedals{
+    background-image: url(/Web-project-main/img/На\ главную.jpg);
+    border-radius: 10px;
+    position: absolute;
+    width: 705px;
+    height: 184px;
+    left: 522px;
+    right: 53px;
+    top: 385px;
+    bottom: 231px;
+}
+.two{
+    flex-direction: column;
+}
+.about-Guitar{
+    background-image: url(/Web-project-main/img/о\ гитарах\ 2.jpg);
+    border-radius: 10px;
+    position: absolute;
+    width: 457px;
+    height: 397px;
+    left: 43px;
+    right: 780px;
+    top: 172px;
+    bottom: 231px;
+}
+.link-about-Guitar{
+    
+    display:block;
+    width:457px;
+    height:397px;
+    
+}
+
+.combo-amplifiers{
+    background-image: url(/Web-project-main/img/комб.jpg);
+    border-radius: 10px;
+    position: absolute;
+    width: 705px;
+    height: 199px;
+    left: 522px;
+    right: 53px;
+    top: 172px;
+    bottom: 429px;
+}
+.guitarists-and-assemblies{
+    background-image: url(/Web-project-main/img/10.3.jpg);
+    border-radius: 10px;
+    position: absolute;
+    width: 1184px;
+    height: 220px;
+    left: 43px;
+    right: 53px;
+    top: 584px;
+    bottom: 27px;
+}
+p{
+    text-align:center;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
